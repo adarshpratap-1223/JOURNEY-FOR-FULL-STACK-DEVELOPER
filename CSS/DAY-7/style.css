@@ -1,0 +1,54 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color:#B92B27;
+}
+
+.login {
+    border-radius: 2px;
+    background-color: #229ac8;
+    color: #fff;
+}
+
+.signup {
+    border-radius: 2px;
+    background-color: #B92B27;
+    color: #fff;
+}
+
+input[type="text"] {
+    background-color: #000;
+    color: #fff;
+}
+
+input[type="password"] {
+    background-color: #000;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5255e;
+}
+
+p {
+    color: #ff0000;
+}
+
+.upvote {
+    border-radius: 2px;
+    background-color: #133337;
+    color: #fff;
+}
+
+
+.answer {
+    border-radius: 2px;
+    background-color: #aaaaaa;
+}
+
+h3 {
+    color: #065535;
+}

@@ -1,0 +1,35 @@
+#mainTopic{
+    color: blue;
+}
+
+*{
+    text-align: center;
+    font-family: Georgia;
+}
+
+.paragraph{
+    color: #fff;
+    background-color: #6494ed;
+}
+
+div > button{
+    background-color: #800080;
+    color: #f0ffff;
+}
+
+button:hover{
+    background-color: #ffff00;
+    color: #0000ff;
+}
+
+p:nth-of-type(2n+1){
+    color: #ffff00;
+}
+
+h1::first-letter{
+    color: #ff0000;
+}
+
+#yes:checked + label {
+    color: #006400;
+}

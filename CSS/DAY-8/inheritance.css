@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(7, 1, 58);
+    color: bisque;
+}
+
+input,button{
+    background-color: inherit;
+}
+
+button{
+    color: aqua;
+}
