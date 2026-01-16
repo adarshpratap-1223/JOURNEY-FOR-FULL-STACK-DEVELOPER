@@ -216,6 +216,9 @@ a {
 
 .album {
     width: 25%;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 }
 
 .player {
@@ -262,6 +265,66 @@ a {
 }
 
 .progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.album-img {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.2rem;
+}
+
+.song-name {
+    margin-left: 1rem;
+    line-height: 3px;
+}
+
+.song {
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.album-icon {
+    margin-left: 1rem;
+    display: flex;
+    gap: 10px;
+    opacity: 1;
+}
+
+.heart:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.side-icon {
+    margin-left: 6rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.volume {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.volume::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.volume::-webkit-slider-thumb {
     appearance: none;
     height: 1rem;
     width: 1rem;
